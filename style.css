@@ -1,0 +1,48 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+#container {
+    border: 2px solid black;
+    width: 688px;
+    height: 688px;
+    margin: auto;
+    display: grid;
+    /*justify-content: center; /*horizontal axis alignment*/
+    /*align-content: center; /*vertical axis alignment*/
+}
+
+h1 {
+    padding: 40px 40px;
+    max-width: 260px;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+#square {
+    border: .5px solid black;
+}
+
+#slider {
+    max-width: 870px;
+    margin: auto;
+    padding: 40px 40px;
+}
+
+.slider {
+    width: 600px;
+}
+
+.grid-size {
+    margin: 10px 10px;
+}
+
+#slider {
+    display:flex;
+}
+
+#btnClear {
+    margin: 10px 10px;
+}
