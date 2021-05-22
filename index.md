@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <h1>Etch-a-Sketch</h1>
+
+        <div id="container"></div>
+
+        <div id="slider">
+            <input type="range" min="4" max="64" value="16" id="rangeSlider" class="slider" onchange="sliderChange(this.value)">
+            <p class="grid-size">
+                Grid size: <span id="range-value">16</span> x <span id="range-value">16</span>
+            </p>
+            <button id="btnClear">Clear</button>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
